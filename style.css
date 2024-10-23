@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(8, 19, 41);
+    overflow-x: hidden;
+}
+.container{
+    overflow-x: hidden;
+}
+.intro{
+    min-height: 100vh;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    font-family: "Source Code Pro", monospace;
+}
+.f4 button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+}
+.content{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 19, 41);
+    color: white;
+    font-family: "Concert One", sans-serif;
+}
+.content p{
+    font-size: 1em;
+}
+.content h3 {
+    font-size: 2em;
+}
+.a1{
+    animation: a1 2s linear infinite;
+}
+@keyframes a1 {
+    0%{
+        transform: translateY(00px);
+        color: rgb(255, 255, 255, 0);
+    }
+    100%{
+        transform: translateY(30px);
+        color: rgb(255, 255, 255, 1);
+    }
+}
+.a2 {
+    animation: a2 2s linear infinite;
+}
+
+@keyframes a2 {
+    0% {
+        transform: translateY(00px);
+        color: rgb(255, 255, 255, 0);
+    }
+
+    100% {
+        transform: translateY(30px);
+        color: rgb(255, 255, 255, 1);
+    }
+}
+.a3 {
+    animation: a3 2s linear infinite;
+}
+
+@keyframes a3 {
+    0% {
+        transform: translateY(00px);
+        color: rgb(255, 255, 255, 0);
+    }
+
+    100% {
+        transform: translateY(30px);
+        color: rgb(255, 255, 255, 1);
+    }
+}
+.section{
+    background-color: rgb(8, 19, 41);
+    color: white;
+    font-family: "Caveat", cursive;
+}
+.section p{
+    color: white;
+    font-family: "Caveat", cursive;
+    text-align: justify;
+}
